@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FB59F15C2931FBCB001E0085 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59F15B2931FBCB001E0085 /* main.swift */; };
+		FB59F16329320071001E0085 /* Databse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59F16229320071001E0085 /* Databse.swift */; };
+		FBCF8E36293348B7000B3AF4 /* teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCF8E35293348B7000B3AF4 /* teacher.swift */; };
+		FBCF8E3829334904000B3AF4 /* students.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCF8E3729334904000B3AF4 /* students.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		FB59F1582931FBCB001E0085 /* HW-2-3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW-2-3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB59F15B2931FBCB001E0085 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB59F16229320071001E0085 /* Databse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databse.swift; sourceTree = "<group>"; };
+		FBCF8E35293348B7000B3AF4 /* teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teacher.swift; sourceTree = "<group>"; };
+		FBCF8E3729334904000B3AF4 /* students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = students.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +47,8 @@
 		FB59F14F2931FBCB001E0085 = {
 			isa = PBXGroup;
 			children = (
-				FB59F15A2931FBCB001E0085 /* HW-2-3 */,
 				FB59F1592931FBCB001E0085 /* Products */,
+				FB59F15A2931FBCB001E0085 /* HW-2-3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				FB59F15B2931FBCB001E0085 /* main.swift */,
+				FB59F16229320071001E0085 /* Databse.swift */,
+				FBCF8E35293348B7000B3AF4 /* teacher.swift */,
+				FBCF8E3729334904000B3AF4 /* students.swift */,
 			);
 			path = "HW-2-3";
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB59F16329320071001E0085 /* Databse.swift in Sources */,
 				FB59F15C2931FBCB001E0085 /* main.swift in Sources */,
+				FBCF8E36293348B7000B3AF4 /* teacher.swift in Sources */,
+				FBCF8E3829334904000B3AF4 /* students.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
